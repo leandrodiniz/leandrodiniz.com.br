@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<div class="works-control">
+    <ul class="list-work">
+        {% for post in site.posts %}
+            <li class="item-work animated bounceIn">
+                <a href="{{ post.url | prepend: site.baseurl }}">
+                    <span class="item-title">{{ post.title }}</span>
+                    <span class="img-featured"><img src="{{ post.featured_image }}" alt="{{ post.title }}"></span>
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+</div>
+

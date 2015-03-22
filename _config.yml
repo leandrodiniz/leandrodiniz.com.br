@@ -1,0 +1,18 @@
+safe:        false
+url: http://localhost:4000
+
+title: Leandro
+
+name: Leandro Diniz
+description: A brazilian Front-end developer based in São Paulo. Currently working for Itelios Brasil.
+url: http://leandrodiniz.com.br
+domain: leandrodiniz.com.br
+commentlinks: true
+twitter-username: leandro_diniz
+github_username:  leandrodiniz
+
+permalink:   /:title/
+paginate: 5
+
+# Build settings
+markdown: kramdown
