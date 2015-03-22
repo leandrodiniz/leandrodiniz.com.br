@@ -1,0 +1,28 @@
+{
+  "name": "Leandro Diniz",
+  "version": "0.0.1",
+  "homepage": "https://github.com/leandrodiniz/leandrodiniz.com.br",
+  "authors": [
+    "Leandro Diniz <le_dinizsantos@hotmail.com>"
+  ],
+  "description": "A brazilian Front-end developer based in São Paulo. Currently working for Itelios Brasil.",
+  "keywords": [
+    "front-end",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets/js/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bounce.js": "~0.8.2",
+    "jquery": "~2.1.3"
+  }
+}
